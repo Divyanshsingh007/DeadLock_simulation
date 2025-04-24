@@ -1,0 +1,16 @@
+{
+  "resources": {
+    "CPU": 1,
+    "RAM": 1
+  },
+  "processes": [
+    {
+      "id": "P1",
+      "requests": ["CPU", "SLEEP_1", "RAM"]
+    },
+    {
+      "id": "P2",
+      "requests": ["RAM", "SLEEP_1", "CPU"]
+    }
+  ]
+}

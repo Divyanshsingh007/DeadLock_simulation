@@ -1,0 +1,10 @@
+{
+    "resources": {
+      "CPU": 1
+    },
+    "processes": [
+      { "id": "P1", "requests": ["CPU", "SLEEP_1", "CPU", "SLEEP_1", "CPU"] },
+      { "id": "P2", "requests": ["CPU"] }
+    ]
+  }
+  
